@@ -1,2 +1,8 @@
-# GradientDescent
-Basic machine learning algorithm applied to minimize cost functions of regression line
+## Description
+
+## Usage
+```
+$ python RoboChat.py
+```
+
+## What I have learned
