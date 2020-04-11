@@ -12,24 +12,12 @@ Written in Octave/MATLAB, this repository Contains a set of algorithms/functions
 - costFunctionReg
 
 
-## costFunction Usage
+## Usages
 ```
 costFunction(theta, X, y)
-```
-## sigmoid Usage
-```
 sigmoid(z)
-```
-## predict Usage
-```
 predict(theta, X)
-```
-## mapFeature Usage
-```
 mapFeature(X1, X2)
-```
-## costFunctionReg Usage
-```
 costFunctionReg(theta, X, y, lambda)
 ```
 
