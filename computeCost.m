@@ -7,7 +7,7 @@ function J = computeCost(X, y, theta)
   % cost initialization
   J = 0;
   
-  % computer cost
+  % computes cost
   J = 1/(2*m) * sum((X*theta - y).^2);
   
 end
