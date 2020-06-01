@@ -1,5 +1,5 @@
 % computes cost for linear regression
-function J = computeCost(X, y, theta)
+function J = linearCostFunction(X, y, theta)
 
   % number of training examples
   m = length(y);
