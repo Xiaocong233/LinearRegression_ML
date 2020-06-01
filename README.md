@@ -1,7 +1,7 @@
 ## Description
 Written in Octave/MATLAB, this repository contains a set of vectorized algorithms serving to compute basic linear regression. 
 
-- computeCost
+- linearCostFunction
   - outputs the result of the cost function for given arguments X, y and theta.
   
 - featureNormalize
@@ -15,9 +15,9 @@ Written in Octave/MATLAB, this repository contains a set of vectorized algorithm
 - normalEquation
   - computes the closed-form solution to linear regression using the normal equations.
 
-## computeCost Usage
+## linearCostFunction Usage
 ```
-computeCost(X, y, theta)
+linearCostFunction(X, y, theta)
 ```
 ## featureNormalize Usage
 ```
