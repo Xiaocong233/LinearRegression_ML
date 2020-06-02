@@ -62,3 +62,7 @@ normalEquation(X, y)
 ```
 validationCurve(X, y, Xval, yval)
 ```
+## learningCurve Usage
+```
+learningCurve(X, y, Xval, yval, lambda)
+```
