@@ -58,3 +58,7 @@ trainLinearReg(X, y, lambda)
 ```
 normalEquation(X, y)
 ```
+## validationCurve Usage
+```
+validationCurve(X, y, Xval, yval)
+```
