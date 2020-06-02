@@ -30,9 +30,17 @@ Written in Octave/MATLAB, this repository contains a set of vectorized algorithm
 - learningCurve
   - generates a learning curve from the training and cross validation set errors 
 
+## polyFeatures Usage
+```
+polyFeatures(X, p)
+```
 ## linearCostFunction Usage
 ```
 linearCostFunction(X, y, theta)
+```
+## linearRegCostFunction Usage
+```
+linearRegCostFunction(X, y, theta, lambda)
 ```
 ## featureNormalize Usage
 ```
@@ -41,8 +49,4 @@ featureNormalize(X)
 ## gradientDescent Usage
 ```
 gradientDescent(X, y, theta, alpha, num_iters)
-```
-## normalEquation Usage
-```
-normalEquation(X, y)
 ```
