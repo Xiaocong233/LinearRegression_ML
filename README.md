@@ -42,7 +42,6 @@ featureNormalize(X)
 ```
 gradientDescent(X, y, theta, alpha, num_iters)
 ```
-
 ## normalEquation Usage
 ```
 normalEquation(X, y)
