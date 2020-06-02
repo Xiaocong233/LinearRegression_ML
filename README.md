@@ -54,3 +54,7 @@ gradientDescent(X, y, theta, alpha, num_iters)
 ```
 trainLinearReg(X, y, lambda)
 ```
+## normalEquation Usage
+```
+normalEquation(X, y)
+```
