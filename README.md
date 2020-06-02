@@ -50,3 +50,7 @@ featureNormalize(X)
 ```
 gradientDescent(X, y, theta, alpha, num_iters)
 ```
+## trainLinearReg Usage
+```
+trainLinearReg(X, y, lambda)
+```
