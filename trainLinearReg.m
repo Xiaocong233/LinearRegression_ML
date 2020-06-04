@@ -1,3 +1,4 @@
+% Created by Andrew Ng ML
 % Trains linear regression given a dataset (X, y) 
 % and a regularization parameter lambda
 function [theta] = trainLinearReg(X, y, lambda)
