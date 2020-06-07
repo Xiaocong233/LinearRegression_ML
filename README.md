@@ -1,68 +1,50 @@
 ## Description
 Written in Octave/MATLAB, this repository contains a set of vectorized algorithms serving to compute basic linear regression. 
 
-- polyFeatures
+## Linear Regression
+```
+[X_poly] = polyFeatures(X, p)
+```
   - maps X (1D vector) into the p-th power
 
-- linearCostFunction
+```
+J = linearCostFunction(X, y, theta)
+```
   - outputs the result of the cost function for given arguments X, y and theta.
-  
-- linearRegCostFunction
+
+```
+[J, grad] = linearRegCostFunction(X, y, theta, lambda)
+```
   - computes the cost and gradient for regularized linear regression
-  
-- featureNormalize
+
+```
+[X_norm, mu, sigma] = featureNormalize(X)
+```
   - outputs a new X with features normalized using (X - mean) / std
-  
-- gradientDescent
+
+```
+[theta, J_history] = gradientDescent(X, y, theta, alpha, num_iters)
+```
   - outputs the optimized theta(s) for the regression line of inputs of two data matrices (X, y), theta(s), a manual chosen alpha value (learning rate), and a number of iterations intended for gradient descent to run.
   - gradientDescent will invoke another function included, named computeCost, which computes the cost function for a given X, y, and theta values
   - if gradient descent appears to not be converging, check if alpha values are either too high (causing overshoot) or too low (slow to convergence)
   
-- trainLinearReg
+```
+[theta] = trainLinearReg(X, y, lambda)
+```
   - trains linear regression given a dataset (X, y) and a regularization parameter lambda
-  
-- normalEquation
+
+```
+[theta] = normalEqn(X, y)
+```
   - computes the closed-form solution to linear regression using the normal equations.
-  
-- validationCurve
+
+```
+[lambda_vec, error_train, error_val] = validationCurve(X, y, Xval, yval)
+```
   - Generate the train and validation errors needed to plot a validation curve that we can use to select lambda
 
-- learningCurve
+```
+[error_train, error_val] = learningCurve(X, y, Xval, yval, lambda)
+```
   - generates a learning curve from the training and cross validation set errors 
-
-## polyFeatures Usage
-```
-polyFeatures(X, p)
-```
-## linearCostFunction Usage
-```
-linearCostFunction(X, y, theta)
-```
-## linearRegCostFunction Usage
-```
-linearRegCostFunction(X, y, theta, lambda)
-```
-## featureNormalize Usage
-```
-featureNormalize(X)
-```
-## gradientDescent Usage
-```
-gradientDescent(X, y, theta, alpha, num_iters)
-```
-## trainLinearReg Usage
-```
-trainLinearReg(X, y, lambda)
-```
-## normalEquation Usage
-```
-normalEquation(X, y)
-```
-## validationCurve Usage
-```
-validationCurve(X, y, Xval, yval)
-```
-## learningCurve Usage
-```
-learningCurve(X, y, Xval, yval, lambda)
-```
