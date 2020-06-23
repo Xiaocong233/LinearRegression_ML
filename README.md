@@ -1,7 +1,7 @@
 ## Description
 Written in **Octave/MATLAB**, this repository contains a set of vectorized algorithms serving to compute basic linear regression. 
 
-## Linear Regression Functions
+## MATLAB/Octave Linear Regression Class Functions
 ```
 [X_poly] = polyFeatures(X, p)
 ```
@@ -48,3 +48,6 @@ J = linearCostFunction(X, y, theta)
 [error_train, error_val] = learningCurve(X, y, Xval, yval, lambda)
 ```
   - generates a learning curve from the training and cross validation set errors 
+  
+  ## Python Linear Regression Template
+  - created by ![SuperDataScience Team](https://www.superdatascience.com/)
