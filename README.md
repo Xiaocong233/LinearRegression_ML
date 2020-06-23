@@ -50,4 +50,4 @@ J = linearCostFunction(X, y, theta)
   - generates a learning curve from the training and cross validation set errors 
   
   ## Python Linear Regression Template
-  - created by ![SuperDataScience Team](https://www.superdatascience.com/)
+  - created by [SuperDataScience Team](https://www.superdatascience.com/)
