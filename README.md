@@ -2,13 +2,18 @@
 Written in **Octave/MATLAB**, this repository contains a set of vectorized algorithms serving to compute basic linear regression. 
 
 ## MATLAB/Octave Linear Regression Class Functions
->[X_poly] = polyFeatures(X, p)
+---
+```
+[X_poly] = polyFeatures(X, p)
+```
   - maps `X` (1D vector) into the `p`-th power
+---
 
 ```
 J = linearCostFunction(X, y, theta)
 ```
   - outputs the result of the cost function for given arguments `X`, `y` and `theta`.
+---
 
 ```
 [J, grad] = linearRegCostFunction(X, y, theta, lambda)
