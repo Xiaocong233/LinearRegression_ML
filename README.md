@@ -3,7 +3,7 @@ Written in **Octave/MATLAB**, this repository contains a set of vectorized algor
 
 ## MATLAB/Octave Linear Regression Class Functions
 ***
-```
+```Matlab
 [X_poly] = polyFeatures(X, p)
 ```
   - maps `X` (1D vector) into `p`-th power
