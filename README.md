@@ -12,7 +12,7 @@ J = linearCostFunction(X, y, theta)
 ```
   - outputs the result of the cost function for given arguments `X`, `y` and `theta`.
 
-```
+```MATLAB
 [J, grad] = linearRegCostFunction(X, y, theta, lambda)
 ```
   - computes the cost and gradient for regularized linear regression
