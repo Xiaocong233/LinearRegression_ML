@@ -1,7 +1,7 @@
 ## Description
-Written in Octave/MATLAB, this repository contains a set of vectorized algorithms serving to compute basic linear regression. 
+Written in **Octave/MATLAB**, this repository contains a set of vectorized algorithms serving to compute basic linear regression. 
 
-## Linear Regression
+## Linear Regression Functions
 ```
 [X_poly] = polyFeatures(X, p)
 ```
